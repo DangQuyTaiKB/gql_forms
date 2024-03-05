@@ -9,6 +9,8 @@ requests
 
 sqlalchemy
 sqlalchemy_utils
+sqlalchemy-cockroachdb
+psycopg2-binary
 
 pydantic
 starlette
@@ -18,9 +20,3 @@ aiodataloader
 pyjwt[crypto]
 
 https://github.com/hrbolek/uoishelpers/archive/refs/heads/main.zip
-
-pytest
-pytest-cov
-pytest-asyncio
-aiosqlite
-https://github.com/hrbolek/PyMockOAuthServer/archive/refs/heads/main.zip
