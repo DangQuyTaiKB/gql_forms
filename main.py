@@ -151,6 +151,7 @@ async def apollo_gql(request: Request, item: Item):
 # ))
 
 import os
+os.environ["DEMO"] = "True"  # or "False"
 DEMO = os.getenv("DEMO", None)
 assert DEMO is not None, "DEMO environment variable must be explicitly defined"
 assert (DEMO == "True") or (DEMO == "False"), "DEMO environment variable can have only `True` or `False` values"
